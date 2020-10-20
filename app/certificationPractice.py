@@ -23,18 +23,31 @@ else:
     c = 3
 print(a + b + c)
 
-
 for i in range(1, 4, 2):
     print("*", end="**")
 print("***")
 
-
-print("my name ", end = "*")
-print("mrinal") #This will print in the same line
-print("heloo ")  #This will print in the different line
+print("my name ", end="*")
+print("mrinal")  # This will print in the same line
+print("heloo ")  # This will print in the different line
 
 print("I am loving\\nPython.")
 print("I am loving\\Python.")
 
 print("' I love Python '")
 print(""" I love Python """)
+
+print("I love \"python\"")
+
+print(True < False)
+print(-6 // 4)
+
+mylist = [0 for i in range(1, 4)]
+print(mylist)
+
+print(7 % 2 * 4)
+print(7 / 2 * 4)
+
+list2 = [1, 2, 3, 6, 4]
+print(sorted(list2))
+print(list2)
