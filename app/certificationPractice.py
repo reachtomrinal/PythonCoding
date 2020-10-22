@@ -48,6 +48,7 @@ print(mylist)
 print(7 % 2 * 4)
 print(7 / 2 * 4)
 
+# ---------------- clarification of sort and sorted list -------------------------
 list2 = [1, 2, 3, 6, 4]
 print(sorted(list2))
 print(list2)
