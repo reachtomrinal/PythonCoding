@@ -13,3 +13,9 @@ print(add)
 crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5: "XRP"}
 crypto.popitem()  #remove and return an arbitary key value pair
 print(len(crypto))
+
+
+
+dict = { 'a': 1, 'b': 2, 'c': 3 }
+for item in dict:
+    print(item)
